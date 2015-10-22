@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>b2io/angular-unit-testing</title>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      label {
+        display: block;
+      }
+
+      #clear {
+        display: block;
+      }
+
+      #items {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Add an Item</h1>
+
+      <div>
+        <label for="item-added">Item to add</label>
+        <input type="text" id="item-added">
+        <button id="add" type="submit">Add</button>
+      </div>
+
+      <h1>Items</h1>
+
+      <p id="items"></p>
+      <button id="clear" type="submit">Clear All</button>
+    </div>
+
+    <!-- build:js({.tmp,src}) bundle.js -->
+    <script src="bundle.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
