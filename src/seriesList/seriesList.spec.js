@@ -11,7 +11,7 @@ describe('seriesList', function() {
     expect(seriesList(['a', 'b'])).toEqual('a and b');
   });
 
-  it('should series separate series with oxford series', function() {
+  it('should series separate series with oxford comma', function() {
     expect(seriesList(['a', 'b', 'c'])).toEqual('a, b, and c');
   });
 
