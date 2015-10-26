@@ -7,11 +7,11 @@ describe('seriesList', function() {
     expect(seriesList(['a'])).toEqual('a');
   });
 
-  it('should display and between to values', function() {
+  it('should display `and` between two values', function() {
     expect(seriesList(['a', 'b'])).toEqual('a and b');
   });
 
-  it('should series separate series with oxford comma', function() {
+  it('should comma separate series with oxford comma', function() {
     expect(seriesList(['a', 'b', 'c'])).toEqual('a, b, and c');
   });
 
