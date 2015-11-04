@@ -1,6 +1,3 @@
-var $ = require('jquery');
-var seriesList = require('./seriesList/seriesList');
-
 $(function() {
   var items;
 

@@ -1,7 +1,5 @@
 'use strict';
 
-var seriesList = require('seriesList/seriesList');
-
 describe('seriesList', function() {
   it('should display single value', function() {
     expect(seriesList(['a'])).toEqual('a');
