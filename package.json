@@ -7,7 +7,7 @@
     "gulp": "gulp",
     "prestart": "npm install",
     "start": "gulp serve",
-    "test": "karma start"
+    "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
