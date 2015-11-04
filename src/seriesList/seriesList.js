@@ -1,6 +1,4 @@
-'use strict';
-
-function seriesListFilter(input) {
+function seriesList(input) {
   if (!input || !input.length) {
     return '';
   }
@@ -21,4 +19,4 @@ function seriesListFilter(input) {
   });
 }
 
-module.exports = seriesListFilter;
+window.seriesList = seriesList;
