@@ -11,4 +11,6 @@ Bare-bones Unit Testing Example
 
 #### Run
 
-**Unit tests:** `karma start`
+**Unit tests:tdd:** `karma start`
+
+**Unit tests:** `karma start --single-run`
