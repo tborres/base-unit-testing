@@ -5,8 +5,7 @@ module.exports = function KarmaConfig(config) {
       'node_modules/jquery/dist/jquery.js',
       'src/**/*.js'
     ],
-    frameworks: ['jasmine'],
-    reporters: ['dots']
+    frameworks: ['jasmine']
   };
 
   config.set(configuration);
